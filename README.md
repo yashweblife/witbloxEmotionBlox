@@ -21,12 +21,13 @@ Test->Anim.cpp, Anim.h, make.py, pics.h, test.ino
         You can control animations through an app
 
 <h2>test:</h2>
-    |Name|Description|
-    |----|-----------|
-    |Anim.cpp,Anim.h|Animation Objects decomperssion and runtime code|
-    |---------------|------------------------------------------------|
-    |make.py|Compressor code, makes byte comression|
-    |-------|--------------------------------------|
-    |pics.h|Contains Latest raw byte data for animation|
-    |------|-------------------------------------------|
-    |test.ino|Main file to upload onto nodemcu|
+
+|Name|Description|
+|----|-----------|
+|Anim.cpp,Anim.h|Animation Objects decomperssion and runtime code|
+|---------------|------------------------------------------------|
+|make.py|Compressor code, makes byte comression|
+|-------|--------------------------------------|
+|pics.h|Contains Latest raw byte data for animation|
+|------|-------------------------------------------|
+|test.ino|Main file to upload onto nodemcu|
