@@ -21,7 +21,7 @@ Test->Anim.cpp, Anim.h, make.py, pics.h, test.ino
 
 |Name|Description|
 |----|-----------|
-|maker.h|Contains Firebase control interface for nodemcu|You can control animations through an app|
+|maker.h|Contains Firebase control interface for nodemcu,You can control animations through an app|
 |----|-----------|
 <h2>test:</h2>
 
@@ -34,3 +34,11 @@ Test->Anim.cpp, Anim.h, make.py, pics.h, test.ino
 |pics.h|Contains Latest raw byte data for animation|
 |----|-----------|
 |test.ino|Main file to upload onto nodemcu|
+
+#Task List
+ - [x] making test animations
+ - [x] making jerk sensor code
+ - [] adding 4 inputs
+ - [] making more animations
+ - [] code clean up
+ - [x] optimizations
