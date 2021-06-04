@@ -10,24 +10,20 @@ Test->Anim.cpp, Anim.h, make.py, pics.h, test.ino
 <h1>Files</h1>
 
 <h2>Root:</h2>
-    pics.h
-        Contains set of raw byte data for animation in c++ format
-    Vector.h
-        Contains Custom Vector libray for deconstruction and animation control
+
+|Name|Description|
+|pics.h|Contains set of raw byte data for animation in c++ format|
+|Vector.h|Contains Custom Vector libray for deconstruction and animation control|
 
 <h2>maker:</h2>
-    maker.h
-        Contains Firebase control interface for nodemcu,
-        You can control animations through an app
+
+|Name|Description|
+|maker.h|Contains Firebase control interface for nodemcu|You can control animations through an app|
 
 <h2>test:</h2>
 
 |Name|Description|
-|----|-----------|
 |Anim.cpp,Anim.h|Animation Objects decomperssion and runtime code|
-|---------------|------------------------------------------------|
 |make.py|Compressor code, makes byte comression|
-|-------|--------------------------------------|
 |pics.h|Contains Latest raw byte data for animation|
-|------|-------------------------------------------|
 |test.ino|Main file to upload onto nodemcu|
