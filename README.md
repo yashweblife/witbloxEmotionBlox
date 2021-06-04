@@ -35,10 +35,10 @@ Test->Anim.cpp, Anim.h, make.py, pics.h, test.ino
 |----|-----------|
 |test.ino|Main file to upload onto nodemcu|
 
-#Task List
+# Task List
  - [x] making test animations
  - [x] making jerk sensor code
- - [] adding 4 inputs
- - [] making more animations
- - [] code clean up
+ - [ ] adding 4 inputs
+ - [ ] making more animations
+ - [ ] code clean up
  - [x] optimizations
