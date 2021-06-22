@@ -38,7 +38,16 @@ Test->Anim.cpp, Anim.h, make.py, pics.h, test.ino
 # Task List
  - [x] making test animations
  - [x] making jerk sensor code
- - [ ] adding 4 inputs
- - [ ] making more animations
+ - [x] adding 4 inputs
+ - [x] making more animations
  - [ ] code clean up
  - [x] optimizations
+
+ # Changes Made On 22/06/2021
+ - Remade Animations :+1:
+ - Added New Animations 👍
+ - Animations Are Now In HEX 👍
+ - Added Inputs 👎
+ - Made a new way to animate using 1D arrays 👍
+ - Used Lossy Compression on animation frames 👍
+ - Used New Custom Compressor On Res Frames 👍
