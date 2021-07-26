@@ -3,16 +3,18 @@
 #include "normal.h"
 #include "sad.h"
 #include "smile.h"
+#include "wakeup.h"
 #include "animations.h"
+
 #include <Wire.h>
 
-const int buzzer = 9;
-const int indicator = 10;
-const int toggle = 7;
-const int inp1 = 2;
-const int inp2 = 3;
-const int inp3 = 4;
-const int inp4 = 5;
+const int buzzer = 9;//2
+const int indicator = 10;//0
+const int toggle = 7;//3;
+const int inp1 = 2;//14;
+const int inp2 = 3;//12;
+const int inp3 = 4;//13;
+const int inp4 = 5;//15;
 const int sensor = A0;
 bool _mode = false;
 
@@ -86,5 +88,7 @@ void setup() {
 newSetup();
 }
 void loop() {
+  //activateWakeUp();
+  //activateNormal();
 newLoop();  
 }
