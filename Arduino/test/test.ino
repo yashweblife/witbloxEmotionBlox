@@ -90,5 +90,5 @@ newSetup();
 }
 void loop() {
   activateNormal();
-//newLoop();  
+  newLoop();  
 }

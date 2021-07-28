@@ -19,6 +19,17 @@ void activateLogo(int a = d1){
     delay(a*i);
   }
   delay(1000);
+  display.clearDisplay();
+  display.setTextSize(1.5);      // Normal 1:1 pixel scale
+  display.setTextColor(SSD1306_WHITE); // Draw white text
+  display.setCursor(SCREEN_WIDTH/2-(7), 4);
+  display.write("For");
+  display.setCursor(SCREEN_WIDTH/2-(3*7), 12);
+  display.write("Endless");
+  display.setCursor(SCREEN_WIDTH/2-(5*7), 20);
+  display.write("Innovations");
+  display.display();
+  delay(1000);
 }
 
 void activateWakeUp(int a = d1){
