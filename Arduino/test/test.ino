@@ -4,8 +4,8 @@
 #include "sad.h"
 #include "smile.h"
 #include "wakeup.h"
+#include "logo.h"
 #include "animations.h"
-
 #include <Wire.h>
 
 const int buzzer = 9;//2
@@ -76,6 +76,7 @@ void runTime(){
 
 void newSetup(){
   initAll();
+  activateLogo();
   activateWakeUp();
   activateNormal();
   checkMode();
@@ -88,7 +89,6 @@ void setup() {
 newSetup();
 }
 void loop() {
-  //activateWakeUp();
-  //activateNormal();
-newLoop();  
+  activateNormal();
+//newLoop();  
 }

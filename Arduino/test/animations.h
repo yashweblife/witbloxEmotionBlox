@@ -11,6 +11,16 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 int d1 = 50;
 
+void activateLogo(int a = d1){
+  for(int i = 0;i<logoallArray_LEN;i++){
+    display.clearDisplay();
+    display.drawBitmap(0, 0, logoallArray[i], LOGO_WIDTH, LOGO_HEIGHT, 1);
+    display.display();
+    delay(a*i);
+  }
+  delay(1000);
+}
+
 void activateWakeUp(int a = d1){
   for(int i = 0;i<wakeupallArray_LEN;i++){
     display.clearDisplay();
